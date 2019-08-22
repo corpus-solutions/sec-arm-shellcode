@@ -6,6 +6,7 @@
 void func1(char *s) {
     char buffer[128];
     strcpy(buffer, s);
+    puts(buffer);
 }
 
 int main (int argc, char* argv[]) {
